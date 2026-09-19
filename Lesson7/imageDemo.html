@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Images Exercise</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* 7A */
+        .image-7a {
+            width: 200px;
+            border-radius: 15px;
+        }
+
+        /* 7B */
+        .square {
+            width: 200px;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+        }
+
+        .image-7b {
+            width: 180px;
+        }
+
+        /* 7C */
+        .image-7c {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        .roundSearch{
+            margin-top: 50px;
+            margin-left: 10px;
+            font-size: medium;
+            border-radius: 5px;
+            border: solid;
+            border-color: gray;
+            border-width: 2px;
+            padding: 10px;
+        }
+        .noBorder{
+            margin-top: 30px;
+            border-radius: 25px;
+            padding: 15px;
+            font-size: medium;
+            width: 500px;
+            border: none;
+            box-shadow: 0px 0 8px rgba(0, 0, 0, 0.15);
+            
+        }
+        .text{
+            color: grey;
+
+        }
+        .email{
+            border-width: 1px;
+            border-color: black;
+            border-radius: 4px;
+            width: 320px;
+            padding: 5px;
+            border-style: solid;
+        }
+        .terms{
+            font-size: small;
+            color: grey;
+        }
+        .join{
+            background-color: rgb(27, 140, 220);
+            color: white;
+            border-radius: 20px;
+            width: 325px;
+            border: none;
+            padding: 10px;
+        }
+        .photo{
+            vertical-align: middle;
+            margin-left: 10px;
+            margin-top:40px;
+             width: 50px;
+            height: 50px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        .what{
+            margin-top: 55px;
+            margin-left: 10px;
+            vertical-align: middle;
+            color: grey;
+        }
+        .A{
+            display: flex;
+            align-items: center;
+        }
+        .next{
+            margin-top: 35px;
+            font-weight: bold;
+            margin-left: 150px;
+            vertical-align:middle;
+            background-color: rgb(35, 154, 245);
+            color: white;
+            padding: 10px;
+            border-radius: 20px;
+            border: none;
+            width: 70px;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Image with rounded corners</h2>
+
+    <img 
+        class="image-7a"
+        src="dog.jpg"
+        alt="Puppy"
+    >
+
+
+    <h2>7b. Square with image centered inside</h2>
+
+    <div class="square">
+        <img 
+            class="image-7b"
+            src="dog.jpg"
+            alt="pup"
+        >
+    </div>
+
+
+    <h2>7c. Circular image</h2>
+
+    <img 
+        class="image-7c"
+        src="dog.jpg"
+        alt="pup"
+    ><br>
+    <input class="roundSearch" type="text" placeholder="Search">
+    <br><input class="noBorder" type="text" placeholder="Search Google or type a URL">
+
+    <br>
+    <p class="text">Email</p>
+    <input class="email" type="text">
+    <p class="terms">By clicking Agree & Join,you agree to the Privacy Policy.</p>
+    <button class="join">Agree & Join</button><br>
+    <div class="A">
+    <img 
+        class="photo"
+        src="dog.jpg"
+        alt="pup"
+    >
+    <p class="what">Whats happening?</p>
+    <button class="next">Tweet</button>
+        </div>
+</body>
+</html>
