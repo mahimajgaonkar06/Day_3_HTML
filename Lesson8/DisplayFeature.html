@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Display Features</title>
+    <style>
+        .A,.B{
+            border-width: 2px;
+            border-style: solid;
+            width: 200px;
+            border-color: gray;
+            display: block;
+            border-radius: 3px;
+            margin: 5px;
+            padding: 5px;
+        }
+        p{
+            width: 200px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        img{
+            margin-top: 50px;
+            margin-left: 150px;
+            height: 100px;
+            width: 200px;
+            object-fit: cover;
+            
+        }
+        .noBorder{
+            margin-top: 5px;
+            border-radius: 25px;
+            padding: 15px;
+            font-size: medium;
+            width: 500px;
+            border: none;
+            box-shadow: 0px 0 8px rgba(0, 0, 0, 0.15);
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <input class="A" type="text", placeholder="name">
+    <input class="B" type="text", placeholder="Email">
+    <p>Thanks for chatting with our customer support. Would you like to take our quick survey?</p>
+    <button class="yes">Yes</button>
+    <button class="no">No</button><br>
+    <img src="go.png" alt="logo">
+    <br><input class="noBorder" type="text" placeholder="Search Google or type a URL">
+
+</body>
+</html>
